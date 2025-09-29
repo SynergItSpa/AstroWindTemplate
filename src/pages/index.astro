@@ -1,16 +1,14 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
 import Steps from '~/components/widgets/Steps.astro';
-import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Un Template para su Negocio — La mejor base para tu presencia digital',
@@ -343,9 +341,9 @@ const metadata = {
           'Solo necesitas las ganas de hacer crecer tu negocio. Nosotros te damos la base, tú pones el contenido.',
       },
       {
-        title: '¿Cómo instalo el template?',
+        title: '¿Cómo obtengo el template?',
         description:
-          "Descarga el template, sigue nuestra guía paso a paso y en minutos tendrás tu sitio listo para personalizar.",
+          "Contáctanos, asignaremos un representante que te guiará en el proceso.",
       },
       {
         title: "¿Puedo personalizarlo según mi marca?",
@@ -378,13 +376,12 @@ const metadata = {
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Obtener template',
-        href: 'https://github.com/arthelokyo/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
+    actions={[{
+      variant: 'primary',
+      text: 'Obtener template',
+      href: 'https://be.synergit.cl/',
+      target: '_blank',
+        icon: 'tabler:mail',
       },
     ]}
   >
