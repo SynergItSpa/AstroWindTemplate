@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: be.synergit.cl
+  site: 'https://be.synergit.cl'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: be.synergit.cl
+    template: '%s — be.synergit.cl'
+  description: "Templates profesionales para Startups, Pequeñas Empresas, SaaS, Portafolios y Landing Pages. Desarrollados con Astro y Tailwind CSS."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: be.synergit.cl
     images:
       - url: '~/assets/images/default.png'
         width: 1200
