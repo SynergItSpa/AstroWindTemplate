@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "template-astro-modern",
     "public": "dist",
     "ignore": [
       "firebase.json",
